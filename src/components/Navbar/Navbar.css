@@ -1,0 +1,44 @@
+/* nav bar continer */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 40px;
+    background-color: #111827;
+    border-bottom: 1px solid #273249;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height:42px;
+    padding: 0px 14px;
+    gap: 10px;
+    background-color: #171F33;
+    border: 1px solid #303B52;
+    border-radius: 10px;
+}
+
+.search-container input {
+   flex:1;
+   min-width: 0;
+   height:100%;
+   border:none;
+   outline:none;
+   background-color: transparent;
+   color: #fff;
+   font-size: 14px;
+}
+
+.search-profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Profile area*/
+.user {
+    display: flex;
+}
